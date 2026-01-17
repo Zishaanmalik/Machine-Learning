@@ -1,43 +1,43 @@
 # Machine Learning
 
-This repository contains **pure Python-based machine learning implementations**, structured strictly around the actual code and experiments present in the repository.  
-No external theory, no generic ML coverage — only what is implemented here.
-
-The repository is organized into **four folders**, each serving a clearly defined purpose.
+This repository presents a structured collection of **machine learning implementations in Python**, focused on supervised learning, unsupervised learning, experimental model development, and applied mini projects.  
+All work is implementation-driven and emphasizes understanding learning behavior through code.
 
 ---
 
-## 📁 supervised learning
+## 📁Supervised Learning
 
-This folder contains **supervised learning implementations using labeled data**.  
-The focus here is strictly on **classification and regression**, and the folder collectively covers **6–7 different supervised models**, implemented from scratch or using core libraries.
+Supervised learning deals with training models on **labeled data**, where the input–output relationship is known.  
+In this repository, both **classification** and **regression** aspects are covered.
 
-### What is present here:
-- **Classification models** (multiple algorithms)
-- **Regression models** (multiple algorithms)
-- Each model is implemented independently with:
-  - Data preprocessing
-  - Model training
-  - Prediction
-  - Performance evaluation
+### Covered aspects
+- **Classification models**
+- **Regression models**
 
-All implementations are algorithm-focused and demonstrate how different supervised models behave on data.
+### Models implemented
+- Logistic Regression / Classification
+- Bagging  
+- Decision Tree  
+- K-Nearest Neighbors (KNN)  
+- Naive Bayes  
+- Random Forest  
+- Support Vector Machine (SVM)
+
+Each model is implemented and evaluated independently to study behavior across different supervised settings.
 
 ---
 
-## 📁 unsupervised learning
+## 📁Unsupervised Learning
 
-This folder contains **only one unsupervised learning technique**, implemented and explored in depth.
+Unsupervised learning works with **unlabeled data**, aiming to discover hidden structures or patterns without predefined targets.
 
-### Technique used:
+### Technique used
 - **K-Means Clustering**
 
-### What is done:
-- Data clustering using K-Means
-- Distance-based grouping of samples
-- Observation of cluster formation and convergence behavior
-
-No other unsupervised algorithms are included — this folder is **exclusively focused on K-Means**.
+The implementation focuses on:
+- Distance-based clustering
+- Cluster formation and convergence
+- Visual interpretation of clusters to understand data distribution
 
 ---
 
