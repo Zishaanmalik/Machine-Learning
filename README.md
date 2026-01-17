@@ -62,14 +62,15 @@ These files demonstrate different ways of implementing **dynamic learning rate b
 
 ## 📁Mini Projects
 
-This folder contains **small, self-contained machine learning projects** designed to reflect **real-world application scenarios**.
+This section contains **practical, implementation-focused machine learning projects**.  
+Each project is built as a **working prototype**, emphasizing end-to-end flow rather than isolated algorithms.
 
-Each project typically includes:
-- Problem formulation
-- Data handling
-- Model training
-- Evaluation and observation
-
+Key characteristics:
+- Problem-oriented implementation
+- Realistic data handling and preprocessing
+- Model training and evaluation in a practical setup
+- Focus on applying ML concepts in usable, real-world-style scenarios
+  
 ---
 
 Thank you for going through the repository.  
